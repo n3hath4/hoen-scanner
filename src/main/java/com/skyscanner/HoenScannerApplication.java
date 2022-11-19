@@ -1,4 +1,4 @@
-package org.example;
+package com.skyscanner;
 
 import io.dropwizard.core.Application;
 import io.dropwizard.core.setup.Bootstrap;
@@ -24,5 +24,5 @@ public class HoenScannerApplication extends Application<HoenScannerConfiguration
     public void run(final HoenScannerConfiguration configuration, final Environment environment) {
 
     }
-
 }
+
