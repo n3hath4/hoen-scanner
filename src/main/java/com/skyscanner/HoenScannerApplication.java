@@ -1,5 +1,6 @@
 package com.skyscanner;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import io.dropwizard.core.Application;
 import io.dropwizard.core.setup.Bootstrap;
 import io.dropwizard.core.setup.Environment;
