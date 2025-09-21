@@ -16,7 +16,7 @@ public class HoenScannerApplication extends Application<HoenScannerConfiguration
     }
 
     @Override
-    public void initialize(final Bootstrap<HoenScannerConfiguration> bootstrap) {
+    public void initialize(final Bootstrap<org.example.HoenScannerConfiguration> bootstrap) {
 
     }
 
