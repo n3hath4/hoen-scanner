@@ -4,7 +4,12 @@ import io.dropwizard.core.Application;
 import io.dropwizard.core.setup.Bootstrap;
 import io.dropwizard.core.setup.Environment;
 
-public class HoenScannerApplication extends Application<HoenScannerConfiguration> {
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class HoenScannerApplication extends Application<org.example.HoenScannerConfiguration> {
 
     public static void main(final String[] args) throws Exception {
         new HoenScannerApplication().run(args);
